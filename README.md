@@ -12,7 +12,7 @@ Test two type of stacks created from StackFactory.jar
 # Issue
 -For type 1 
 
-Method <b>push()<b>:
+Method <b>push()<b>
 when add an element over the capacity it should catch <b>IllegalStateException<b>
 
 -For type 2 :
