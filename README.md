@@ -16,8 +16,8 @@ when add an element over the capacity it should catch <b>IllegalStateException</
 
 - For type 2
 Method <b>push()</b> :<br>
-when add an element over the capacity it should catch <b>IllegalStateException</b>
+when add an element over the capacity it should catch <b>IllegalStateException</b><br>
 Method <b>isFull()</b> :<br>
-when stack is full. It must return true.
+when stack is full. It must return true.<br>
 Method <b>size()</b> :<br>
-when add an element in the stack the size should be 1
+when add an element in the stack the size should be 1<br>
