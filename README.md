@@ -4,8 +4,10 @@ Test two type of stacks created from StackFactory.jar
 
 # Result
 
-|Method|Capacity()|isEmpty()|isFull()|peek()|pop()|push()|size()|
-
+| Method  | Capacity() | isEmpty() | isFull() | peek() | pop() | push() | size() |
+|---------|------------|-----------|----------|--------|-------|--------|--------|
+| Type 1  | No         | No        | No       | No     | No    | Yes    | No     |
+| Type 2  | No         | No        | Yes      | No     | No    | Yes    | Yes    |
 
 # Issue
 -For type 1 
