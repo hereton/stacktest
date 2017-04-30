@@ -13,7 +13,7 @@ import org.junit.*;
 public class StackTest {
 	// not a Stack of java.util.
 	private ku.util.Stack<String> stack;
-	private int CAPACITY = 5;
+	private final int CAPACITY = 5;
 
 	@SuppressWarnings("unchecked") // don't know what is this for
 	@Before
