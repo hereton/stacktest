@@ -4,23 +4,18 @@ Test two type of stacks created from StackFactory.jar
 
 # Result
 
-|Method|error found   | Type II|
-|:-----:|:-------:|:--------:|
-|Capacity()|No|No|
-|isEmpty()|No|No|
-|isFull()|No|Yes|
-|peek()|No|No|
-|pop()|No|No|
-|push()|Yes|Yes|
-|size()|No|Yes|
+Method|Capacity()|isEmpty()|isFull()|peek()|pop()|push()|size()
+-----------------|-----|-----|-----|-----|-----|-----
+|Type 1|No|Yes|No|No|Yes|No
+|type 2|No|Yes|No|No|Yes|Yes
 
 # Issue
-- For type 1 
+-For type 1 
 
 Method <b>push()<b>:
 when add an element over the capacity it should catch <b>IllegalStateException<b>
 
-- For type 2 :
+-For type 2 :
 Method <b>push()<b>:
 when add an element over the capacity it should catch <b>IllegalStateException<b>
 Method <b>isFull()<b>:
