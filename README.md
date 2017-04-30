@@ -11,13 +11,13 @@ Test two type of stacks created from StackFactory.jar
 
 # Issue
 - For type 1 
-Method <b>push()</b> :
+Method <b>push()</b> :<br>
 when add an element over the capacity it should catch <b>IllegalStateException</b>
 
 - For type 2
-Method <b>push()</b> :
+Method <b>push()</b> :<br>
 when add an element over the capacity it should catch <b>IllegalStateException</b>
-Method <b>isFull()</b> :
+Method <b>isFull()</b> :<br>
 when stack is full. It must return true.
-Method <b>size()</b> :
+Method <b>size()</b> :<br>
 when add an element in the stack the size should be 1
